@@ -1,0 +1,316 @@
+/* SUPADRY - EyesWideWeb */
+
+/* GENERAL TAGS */
+
+body {
+	background-color: #000000; /* E1E8DF */
+	color: #000000;
+	font-family : verdana;
+	font-size: 11px;
+	font-weight: normal;
+	margin: 0px;
+}
+
+/* ========================= */
+/* TABLES */
+table.page {
+	background-color: #ffffff;
+	white-space: nowrap;
+	border: none;
+	margin: 0px;
+	width: 820px;
+	padding: 0px;
+	min-width: 820px;
+	vertical-align: top;
+}
+
+table.main {
+	background-color: #ffffff;
+	white-space: nowrap;
+	border: none;
+	margin: 0px;
+	width: 800px;
+	padding: 0px;
+	min-width: 800px;
+	vertical-align: top;
+}
+
+table.content {
+	border: none;
+	margin: 0px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	padding-right: 8px;
+	width: 100%;
+	vertical-align: top;
+	white-space: nowrap;
+	font-family : verdana;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+/* Table with a 5px grey border */
+table.cb1a {
+	border-color: #6e6e6e;
+	border-width: 3;
+	border-style: solid;
+	width: 100%;
+	vertical-align: top;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/* ========================= */
+/* TD */
+
+td.column {
+	background-color: #000000;
+}
+
+td.content {
+	vertical-align: top;
+	font-family : verdana;
+	font-size: 11px;
+	font-weight: normal;
+	border-top-style:dotted;
+	border-width: 1;
+	border-color: #cccccc;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+td.heading {
+	vertical-align: top;
+	font-family : verdana;
+	font-size: 12px;
+	font-weight: bold;
+	color: #fe0000;
+}
+
+td.right {
+	horizontal-align: right;
+}
+
+/* ========================= */
+/* HYPERLINKS */
+
+A:link {
+	font-family : verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #2c2c2c;
+	text-decoration: none;
+}
+
+A:visited {
+	font-family : verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #f75a0d;
+	text-decoration: none;
+}
+
+A:hover {
+	font-family : verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fe0000;
+	text-decoration: underline;
+}
+
+
+/* ========================= */
+/* IMAGES */
+
+img.banner {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+
+/* -----TO DELETE ----------------------------------------- */
+
+
+/* ---------------------------------------------- */
+
+/* Table with 8px padding all round its border */
+table.cb1b {
+	padding: 8px;
+}
+
+/* Table with 1px grey border and 1px padding all round */
+table.cb1c {
+	border-color: #cccccc;
+	border-width: 1;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-right: 1px;
+	border-style: solid;             
+	width: 100%;
+	vertical-align: top;
+}
+
+table.cb2 {
+	border-color: #878787;
+	border-width: 5;
+	border-style: solid;             
+	width: 100%;
+	vertical-align: top;
+	padding: 8px;
+}
+
+table.cb2a {
+	border-color: #878787;
+	border-width: 5;
+	border-style: solid;             
+	width: 100%;
+	vertical-align: top;
+}
+
+table.cb2b {
+	padding: 8px;
+}
+
+table.cb3a {
+	border-color: #D53437;
+	border-width: 5;
+	border-style: solid;
+	width: 100%;
+	vertical-align: top;
+}
+
+table.cb3b {
+	padding: 8px;
+	vertical-align: top;
+	height: 100%;
+}
+
+table.cb3c {
+	border: none;
+	margin: 0px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	padding-right: 2px;
+	width: 100%;
+}
+
+table.cb4a {
+	border-color: #ffffff;
+	border-width: 5;
+	border-style: solid;
+	width: 100%;
+	vertical-align: top;
+}
+table.banner {
+	padding: 2px;
+	background-color: #D53437;
+	vertical-align: top;
+	color: #ffffff;
+	font-family : verdana;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/* ========================= */
+/* TD #F0F0F0;*/
+
+td.content {
+	vertical-align: top;
+	font-family : verdana;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+td.bottom {
+	vertical-align: bottom;
+}
+
+td.lifetext {
+	padding: 10px;
+	background-color: #EFF7C6;
+	vertical-align: top;
+	font-family : verdana;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+td.lifeimage {
+	background-color: #cccccc;
+	vertical-align: top;
+	horizontal-align: center;
+	font-family : verdana;
+	font-size: 11px;
+	font-weight: normal;
+}
+
+td.topbox {
+	vertical-align: top;
+	height: 100%;
+}
+
+/* ========================= */
+/* IMAGES */
+
+img.banner {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+img.switch {
+	border-color: #492707;
+	border-width: 1;
+	border-style: solid;             
+	margin: 0px;
+	padding: 0px;
+}
+img.heading {
+	border: none;
+	margin-bottom: 2px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+img.textheading {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/* 009632 ========================= */
+/* LISTS */
+
+ol.content {
+	margin-top: 10px;
+	list-style-image: url(../images/bullet.gif);
+	list-style-type: square;
+}
+
+li.content {
+	margin-top: 10px;
+	margin-left: 5px;	
+	margin-right: 5px;
+}
+
+/* ========================= */
+/* SPANS & OTHER */
+
+
+span.heading {
+	font-family : verdana;
+	font-size: 11px;
+	font-weight: bold;
+	color: #861B1B;
+}

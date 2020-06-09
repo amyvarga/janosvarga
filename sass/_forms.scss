@@ -1,0 +1,25 @@
+@media (min-width: $breakpoint-mobile-min) and (max-width: $screen-xs-max) {
+    .col-xs-sm-6 {
+        width: 50%;
+     }
+}
+
+.btn {
+	font-family: 'Josefinsans-semibold', Helvetica, Arial, sans-serif;
+    &.btn-primary {
+        background-color: #003366;
+        border-color: #003366;
+    }
+    &:hover,
+    &:focus {
+        background-color: #EF8354;
+        border-color: #EF8354;
+    }
+}
+
+.glyphicon,
+#inputSuccess2Status,
+#inputError2Status {
+    display: none;
+}
+

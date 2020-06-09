@@ -1,0 +1,19 @@
+.lg-actions .lg-next, .lg-actions .lg-prev,
+.lg-toolbar,
+.lg-sub-html,
+.lg-backdrop,
+.lg-outer .lg-thumb-outer,
+.lg-outer .lg-toogle-thumb
+{
+  background-color: #E5E6E6;
+}
+.lg-actions .lg-next, .lg-actions .lg-prev,
+.lg-toolbar .lg-icon,
+#lg-counter,
+.lg-outer .lg-toogle-thumb {
+    color: #4F5D75;
+}
+.lg-outer .lg-thumb-item.active, 
+.lg-outer .lg-thumb-item:hover {
+    border-color: #EF8354;
+}

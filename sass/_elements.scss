@@ -1,0 +1,106 @@
+@import 'breakpoints';
+
+html {
+    background: white!important;
+}
+
+p, a, button, select, li {
+	@include font-size(17);
+	font-family: 'Josefinsans-light', Helvetica, Arial, sans-serif;
+    color: #464F51;
+    @media (max-width: $breakpoint-mobile-max) {
+        @include font-size(19);
+    }
+    &:hover,
+    &:focus {
+        color: #464F51;
+    }
+}
+
+a {
+    color: #EF8354;
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+
+h1 {
+    color: #8B2635;
+    color: #003366;
+	font-family: 'forte', Helvetica, Arial, sans-serif;
+	@include font-size(80);
+    @media (max-width: $breakpoint-mobile-max) {
+        @include font-size(40);
+    }
+}
+
+/* header */
+.header {
+    position: relative;
+    margin-top: 15px;
+}
+@media (min-width: $grid-float-breakpoint) {
+    .header {
+        display: flex;
+    }
+
+    .logo {
+        flex-direction: column;
+    }
+}
+
+a.logo-link {
+    z-index: 1;
+    position: relative;
+    display: block;
+    text-decoration: none;
+    h1 {
+        //margin-top: 5px;
+        margin-bottom: 0px;
+        .accent {
+            color: #003366;
+        }
+        .indent {
+            position: relative;
+            @media (max-width: $breakpoint-mobile-max) {
+                margin-left: 14px;
+                top: -13px;
+            }
+            margin-left: 24px;
+            top: -30px;
+        }
+    }
+}
+
+h2 {
+    color: #4F5D75;
+	font-family: 'Josefinsans-semibold', Helvetica, Arial, sans-serif;
+	@include font-size(40);
+    @media (max-width: $breakpoint-mobile-max) {
+        @include font-size(30);
+    }
+}
+
+#pagecontainer {
+    @media (max-width: $breakpoint-mobile-max) {
+        position: relative;
+        top: -92px;
+        margin-top: 0;
+    }
+    @media (max-width: $grid-float-breakpoint) {
+        position: relative;
+        top: -108px;
+        margin-top: 0;
+    }
+}
+
+.no-gutter {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+img {
+    width: 100%;
+}
+

@@ -1,0 +1,59 @@
+.navbar {
+    @media (max-width: $breakpoint-mobile-max) {
+        top: -92px;
+    }
+    @media (min-width: $grid-float-breakpoint) {
+        padding-right: 0;
+        .container-fluid,
+        .collapse {
+            padding-right: 0;
+            p {
+                position: absolute;
+                bottom: 2px;
+                right: 15px;
+            }
+        }
+    }
+    @media (min-width: $breakpoint-mobile-min) and (max-width: $screen-sm-max) {
+        top: -180px;
+    }
+    button.navbar-toggle {
+        margin-right: 0;
+        @media (min-width: $breakpoint-mobile-min) and (max-width: $grid-float-breakpoint) {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+    
+    .navbar-header {
+        position: relative;
+        z-index: 0;
+    }
+
+    .navbar-collapse {
+        @media (min-width: $breakpoint-mobile-min) and (max-width: $grid-float-breakpoint) {
+            margin-top: 95px;
+        }
+    }
+    
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:hover,
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus,
+    .dropdown-menu > .active > a, 
+    .dropdown-menu > .active > a:hover, 
+    .dropdown-menu > .active > a:focus {
+        background: #EF8354;
+        color: #fff;
+     }
+    .dropdown-menu > .active > a, 
+    .dropdown-menu > .active > a:hover, 
+    .dropdown-menu > .active > a:focus {
+        background: #003366;
+     }
+}
+
+@media (min-width: $grid-float-breakpoint) {
+    .topnav {
+        flex-direction: column;
+        flex-grow: 1;
+    }
+}

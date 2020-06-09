@@ -1,0 +1,24 @@
+
+/*******************************
+	CSS Document for HappySlaks.com of Janos Varga 
+	Developed by: V.Hohin 
+	Script Date: June 17, 2016 
+	Last modification: June 19, 2016
+*********************************/
+
+/********************************  
+Style for Gallery pages for tablet
+********************************/
+@charset "utf-8";@font-face{font-family:SinkinSans300LightItalic;src:url(../fonts/sinkin-sans/SinkinSans-300LightItalic.otf);}
+body{font-size:12px;font-family:SinkinSans300LightItalic;}
+#pageheader{height:70px;}
+#pagecontainer, #familycontainer{width:95%;margin:0 auto;}
+#familycontainer{padding-bottom:40px;}
+#content_family{width:100%;padding:0;}
+.gallerydescription{margin-top:15px;border-bottom:1px dotted #00aeef;}
+#gallerysection{padding-bottom:30px;}
+#gallery section div{max-width:100%;}
+#gallery section div p{font-size:100%;}
+.pic-overlay a.pic-right{left:68%;width:50px;top:3px;}
+.pic-overlay a.pic-left{left:30%;width:50px;top:3px;}
+.pic-overlay a.pic-close{top:6px;}

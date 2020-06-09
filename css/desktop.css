@@ -1,0 +1,17 @@
+/*******************************
+	CSS Document for HappySlaks.com of Janos Varga 
+	Developed by: V.Hohin 
+	Script Date: April 17, 2016 
+	Last modification: May 15, 2016
+*********************************/
+
+/********************************  
+Style for Gallery pages for desktop
+********************************/
+@charset "utf-8";body{background:#003366;-webkit-font-smoothing:antialiased;font-size:16px;font-family:"Comic Sans","Comic Sans MS", Coronetscript, Florence, Parkavenue, cursive, sans-serif;}
+@media only screen and (max-width:1489px){#gallery section div{max-width:70%;}
+#gallery section div p{font-size:80%;}
+}
+@media only screen and (max-width:1006px){#gallery section div{max-width:60%;}
+#gallery section div p{font-size:90%;}
+}

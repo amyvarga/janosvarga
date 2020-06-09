@@ -1,0 +1,38 @@
+@charset "utf-8";
+/*******************************
+	CSS Document for HappySlaks.com of Janos Varga 
+	Developed by: V.Hohin 
+	Script Date: April 17, 2016 
+	Last modification: June 18, 2016
+*********************************/
+
+/*  Normalize to clean up & standardize the browser default styles: http://necolas.github.io/normalize.css/  */
+@import url("normalize.css");
+
+/*  Basic style for all pages   */
+@import url("basicstyle.css");
+
+/*  Style for input information form pages: family.html  */
+@import url("formstyle.css");
+
+/*  Style for image overlay sections gallery pages  */
+@import url("albomstyle.css");
+
+/*  Style for Gallery pages for left side menu  */
+@import url("menustyle.css");
+
+/*  Style for Gallery pages for admin pages  */
+@import url("adminstyle.css");
+
+
+
+/* Phone */
+@import url("phone.css") only screen and (max-width:414px);
+
+
+/* Tablet */
+@import url("tablet.css") only screen and (min-width:415px) and (max-width:768px);
+
+
+/* Desktop */
+@import url("desktop.css") only screen and (min-width:769px);

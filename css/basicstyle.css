@@ -1,0 +1,92 @@
+
+/*******************************
+	CSS Document for HappySlaks.com of Janos Varga 
+	Developed by: V.Hohin 
+	Script Date: April 17, 2016 
+	Last modification: June 18, 2016
+*********************************/
+
+/*********************************  
+Basic style for all pages   
+*********************************/
+@charset "utf-8";*{margin:0;padding:0;}
+@font-face{font-family:Forte;src:url(../fonts/forte/FORTE.TTF);}
+body{background:#003366;color:#eeeeee;-webkit-font-smoothing:antialiased;}
+#pageheader{text-align:center;height:100px;font-family:Forte;}
+#pageheader>h1{display:inline-block;text-align:center;font-size:400%;font-weight:400;color:#FFCC66;word-spacing:10px;margin:0;}
+#pagecontainer, #familycontainer{width:80%;margin:0 auto;background:#336699;text-align:center;border-radius:40px;text-align:center;font-size:120%;}
+#pagecontainer a{text-decoration:none;}
+#topnav{margin:0 auto;}
+#topnav{width:99%;height:30px;text-align:center;border-bottom:1px dotted #00aeef;}
+#topnav a{color:#FFCC66;font-size:80%;outline:0;}
+#topnav ul{display:block;list-style-type:none;}
+#topnav ul li{display:inline-block;margin:0px 0 3px 0;}
+#topnav ul li a:active,
+#topnav ul li a{color:#FFCC66;padding:3px 10px 2px;border-radius:10px;}
+#topnav ul li a:hover{color:#FFF;transition-duration:0.3s;background:#993300;}
+#topnav .checked{color:#FF6600;cursor:default;background-color:rgba(255,255,255,0.0)}
+#topnav .checked:hover{color:#FF6600;cursor:default;background-color:rgba(255,255,255,0.0)}
+.checked{color:#FF6600;cursor:default;background-color:rgba(255,255,255,0.0)}
+.checked:hover{color:#FF6600;cursor:default;background-color:rgba(255,255,255,0.0)}
+#welcomtext{padding:10px 40px;font-size:90%;border-bottom:1px dotted #00aeef;}
+#welcomtext a{color:#CCCC99;font-style:italic;}
+#contact a{color:#CCCC99;font-style:italic;}
+#welcomtext h1{margin-top:8px;font-size:150%;}
+#welcomtext p{text-align:justify;font-weight:normal;padding:10px 0;}
+.beige{font-style:italic;color:#CCCC99;}
+#gallery{text-align:center;margin:10px 0 0;padding:10px;}
+#gallery ul{display:block;list-style-type:none;text-align:center;}
+#gallery ul li{width:100%;text-align:center;}
+#gallery section{overflow:auto;margin:10px auto;width:95%;padding-bottom:12px;}
+#gallery section figure{width:200px;float:left;margin-right:20px;}
+#gallery section figure img{float:left;-webkit-box-shadow:10px 10px 15px black;-moz-box-shadow:10px 10px 15px black;box-shadow:10px 10px 15px black;}
+.hidecaption{display:none;}
+#gallery section div{max-width:80%;min-width:30%;float:left;font-size:90%;overflow:hidden;}
+#gallery section div h2{font-size:120%;}
+#gallery section div p{width:100%;padding-top:10px;font-size:90%;}
+.gallerydescription{text-align:left;}
+.gallerydescription h2{letter-spacing:1px;word-spacing:3px;}
+.fulline{width:100%;display:inline;}
+.smollsize{font-size:90%;}
+#gallerysection{text-align:center;margin:0;padding:0 0 120px 0;overflow:hidden;}
+#gallerysection article{width:100%;margin-top:50px;}
+#gallerysection ul{list-style-type:none;text-align:center;}
+#gallerysection ul li{display:inline-block;}
+#gallerysection section{position:relative;}
+#gallerysection section figure{width:202px;height:165px;border:1px solid #000000;padding:5px;margin:10px 20px;background:white;-webkit-box-shadow:10px 10px 15px black;-moz-box-shadow:10px 10px 15px black;box-shadow:10px 10px 15px black;}
+#gallerysection section figcaption{font-size:70%;padding:3px;}
+#gallerysection section a{text-decoration:none;color:black;font-size:90%;}
+#gallerysection section p{color:black;text-align:justify;font-size:85%;}
+#gallerysection section figure img{width:200px;height:140px;border:1px solid grey;}
+#gallerysection img{-webkit-transition-duration:0.5s;-moz-transition-duration:0.5s;-o-transition-duration:0.5s;transition-duration:0.5s;}
+#gallerysection img.thumb:hover{-webkit-transform:scale(1.4);-moz-transform:scale(1.4);-o-transform:scale(1.4);box-shadow:0px 0px 30px black;-webkit-box-shadow:0px 0px 30px black;-moz-box-shadow:0px 0px 30px black;opacity:1;}
+#gallerysection ul li section figure:hover + .gallerydescript{display:block;}
+.gallerydescript{display:block;width:244px;border:1px solid grey;font-size:80%;position:absolute;top:177px;background-color:white;padding:3px;display:none;color:black;z-index:999;}
+#gallerysection section.portrait figure{height:250px;}
+#gallerysection section.portrait figure img{height:225px;}
+#gallerysection section.portrait .gallerydescript{top:277px;}
+#about{padding:30px 20px;}
+#about{text-align:justify;text-indent:50px;}
+#about a{color:#CCCC99;font-style:italic;}
+footer{width:100%;min-width:300px;text-align:center;height:45px;}
+footer nav{text-align:center;min-width:480px;font-size:90%;}
+footer nav ul{display:block;}
+footer a{color:#FFCC66;text-decoration:none;outline:0;}
+footer nav ul li{display:inline-block;margin:5px 0;}
+footer nav ul li a:active,
+footer nav ul li a:link{border-radius:10px;margin:0 6px 0 6px;padding:5px 10px;outline:0;}
+footer nav ul li a:hover{background:#993300;color:white;transition-duration:0.3s;}
+footer p{font-size:80%;padding:5px 10px 10px;}
+#uncopyright a:hover{color:yellow;}
+@media only screen and (max-width:1489px){#gallery section div{max-width:70%;}
+#gallery section div p{font-size:80%;}
+}
+@media only screen and (max-width:1006px){#gallery section div{max-width:60%;}
+#gallery section div p{font-size:90%;}
+}
+@media only screen and (max-width:800px){body{font-size:14px;}
+#gallery section div{max-width:100%;}
+#gallery section div p{font-size:100%;}
+}
+#forgotpsw{border-top:1px dotted #00aeef;width:100%;padding:10px 0;}
+#forgotpsw a{decoration:none;color:#CCCC99;font-size:100%;}

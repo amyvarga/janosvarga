@@ -1,0 +1,1 @@
+document.write('<a target=_blank href=http://ad.ca.doubleclick.net/click%3Bh=v2|2f99|3|0|%2a|p%3B5563104%3B0-0%3B1%3B6744584%3B1-468|60%3B2758009|2757573|1%3B%3B%3fhttp%3a%2f%2fwww.standardlife.ca/marathon/eng/><img src=http://m2.doubleclick.net/706461/marathonSLBB5.gif border=0 width=468 height=60></a>');

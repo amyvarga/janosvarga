@@ -1,0 +1,81 @@
+@charset "utf-8";
+/*******************************
+	CSS Document for HappySlaks.com of Janos Varga 
+	Developed by: V.Hohin 
+	Script Date: May 22, 2016 
+	Last modification: May 23, 2016
+*********************************/
+
+/*********************************  
+Style for input information form pages: admin.html  
+**********************************/
+
+
+
+#editSection{
+	padding:30px 20px 70px  20px;
+	font-size:80%;
+	text-align: left;	
+}
+
+#editSection label{width:150px; display:inline-block;} 
+
+#submitSelect{
+	display:inline-block;
+	margin-left:50px;
+}
+
+.btn input,button{
+	width:100px;
+	height: 30px;
+	left: 150px;
+	top:10px;
+	border:hidden;
+	border-radius:10px;
+	background: -webkit-linear-gradient(top, rgba(58,98,135,0.9), rgba(255, 255, 255,0.4)); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom, rgba(58,98,135,0.9), rgba(255, 255, 255,0.4)); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom, rgba(58,98,135,0.9), rgba(255, 255, 255,0.4)); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom, rgba(58,98,135,0.9), rgba(255, 255, 255,0.4)); /* Standard syntax */
+	box-shadow:2px 2px 5px black; 
+	-webkit-box-shadow:2px 2px 5px black;
+	-moz-box-shadow:2px 2px 5px black;
+	margin:0 10px;
+}
+
+.firstSelect{padding:20px 40px 10px 40px;text-align: left;}
+.firstSelect label{width:150px; display:inline-block;}
+
+.btn input:hover{
+	left: 149px;
+	top:9px;
+	/*box-shadow:5px 5px 10px black; 
+	-webkit-box-shadow:5px 5px 10px black;
+	-moz-box-shadow:5px 5px 10px black; 
+	transition: color 0.3s;*/
+	color:#FFF;
+}
+.btn button:hover{
+	left: 149px;
+	top:9px;
+	/*box-shadow:5px 5px 10px black; 
+	-webkit-box-shadow:5px 5px 10px black;
+	-moz-box-shadow:5px 5px 10px black; 
+	transition: color 0.3s;*/
+	color:#FFF;
+}
+a .btn{
+	color:#000;
+}
+a .btn:hover{
+	color:#FFF;
+}
+.edits{
+	margin:20px 0;
+}
+/**/
+.upper {
+	text-transform: uppercase;
+}
+.hide{
+	display:none;	
+}

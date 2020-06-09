@@ -1,0 +1,1 @@
+document.write('<a target=_blank href=http://ad.ca.doubleclick.net/click%3Bh=v2|2f99|3|0|%2a|f%3B5421323%3B1-0%3B0%3B6744590%3B9031-250|250%3B2602011|2600188|1%3B%3B%3fhttp%3a%2f%2fwww.icejerseys.com/?AID=9897141&PID=946947><img src=http://m2.doubleclick.net/706461/icejersey_250x250-2.jpg border=0 width=250 height=250></a>');

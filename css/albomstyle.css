@@ -1,0 +1,39 @@
+
+
+/*******************************
+	CSS Document for HappySlaks.com of Janos Varga 
+	Developed by: V.Hohin 
+	Script Date: April 17, 2016 
+	Last modification: April 17, 2016
+*********************************/
+
+/********************************  
+Style for image overlay sections gallery pages  
+********************************/
+
+@charset "utf-8";.pic-album{width:940px;overflow:hidden;margin:0 auto;padding:0;}
+.pic-album ol,ul{list-style:none;}
+.pic-album li{float:left;margin:11px;}
+.pic-album li > a,
+.pic-album li > a img{display:block;}
+.pic-album li > a{width:125px;height:125px;position:relative;padding:20px;}
+.pic-album li > a span{position:absolute;width:125px;height:125px;top:20px;left:20px;text-align:center;color:#ffffff;font-size:14px;opacity:0;filter:alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";background:rgba(51,51,51,0.5);transition:opacity 0.3s linear;}
+.pic-album li > a:hover span{opacity:1;filter:alpha(opacity=99);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)";}
+.pic-overlay{width:0px;height:0px;position:fixed;overflow:hidden;left:0px;top:0px;padding:0px;z-index:1000;text-align:center;background:rgba(51,51,51,0.9);}
+.pic-overlay > div{color:rgb(184,184,184);font-size:75%;margin:0 auto;}
+.pic-overlay a.pic-close{z-index:1001;color:#b8b8b8;position:absolute;top:3px;left:50%;font-size:12px;text-decoration:none;text-align:center;width:60px;height:20px;overflow:hidden;margin-left:-25px;opacity:0;filter:alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";}
+.pic-overlay a.pic-right{z-index:1002;color:#b8b8b8;position:absolute;top:0;left:58%;font-size:12px;text-decoration:none;text-align:center;width:80px;height:20px;overflow:hidden;margin-left:-25px;opacity:0;filter:alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";}
+.pic-overlay a.pic-left{z-index:1002;color:#b8b8b8;position:absolute;top:0;left:40%;font-size:12px;text-decoration:none;text-align:center;width:80px;height:20px;overflow:hidden;margin-left:-25px;opacity:0;filter:alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";}
+.pic-overlay img{max-height:100%;opacity:0;border:solid #000 5px;filter:alpha(opacity=0);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=0)";transition:opacity 0.5s linear;}
+.pic-prev,
+.pic-next{text-indent:-9000px;position:absolute;top:3px;width:24px;height:25px;left:50%;opacity:0.5;filter:alpha(opacity=80);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=80)";}
+.pic-prev:hover,
+.pic-next:hover{opacity:0.7;filter:alpha(opacity=99);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)";}
+.pic-prev{margin-left:-100px;background:transparent url(images/arrows.png) no-repeat top left;}
+.pic-next{margin-left:66px;background:transparent url(images/arrows.png) no-repeat top right;}
+.pic-overlay:target{width:auto;height:auto;bottom:0px;right:0px;padding:25px 0px 50px 0px;}
+.pic-overlay:target img,
+.pic-overlay:target a.pic-right,
+.pic-overlay:target a.pic-left,
+.pic-overlay:target a.pic-close{opacity:1;filter:alpha(opacity=99);-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(opacity=99)";}
+x:-o-prefocus, .pic-overlay img{height:100%;}

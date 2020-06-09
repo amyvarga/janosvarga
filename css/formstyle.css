@@ -1,0 +1,36 @@
+/*******************************
+	CSS Document for HappySlaks.com of Janos Varga 
+	Developed by: V.Hohin 
+	Script Date: April 17, 2016 
+	Last modification: April 17, 2016
+*********************************/
+
+/*********************************  
+Style for input information form pages: family.html  
+**********************************/
+
+
+
+/******************************
+	Family page 
+******************************/
+@charset "utf-8";#content_family{padding:30px;font-size:80%;display:block;}
+#familycontainer{width:80%;margin:0 auto;background:#336699;text-align:center;border-radius:40px;text-align:center;font-size:120%;}
+#content_family fieldset{width:400px;height:160px;text-align:left;margin:30px auto;border:1px solid grey;color:#fff;border-radius:20px;word-spacing:5px;background-color:#00aeef;background:rgba(0, 174, 239,0.3);box-shadow:0px 0px 30px black;-webkit-box-shadow:0px 0px 30px black;-moz-box-shadow:0px 0px 30px black;}
+#content_family legend{border:1px solid grey;border-radius:10px 0 10px 0;padding:5px 10px;background:#0066cc;color:white;}
+#name, #psw, #sub, #reg, #email{position:relative;}
+#name input{width:220px;position:absolute;right:10px;top:10px;border-radius:7px;border:hidden;padding:2px 5px;}
+#email input{width:220px;position:absolute;right:10px;top:10px;border-radius:7px;border:hidden;padding:2px 5px;}
+#psw input{width:220px;position:absolute;right:10px;top:10px;border-radius:7px;border:hidden;padding:2px 5px;}
+#sub input{width:100px;height:30px;position:absolute;left:150px;top:10px;border:hidden;border-radius:10px;background:-webkit-linear-gradient(top, rgba(58,98,135,0.9), rgba(255, 255, 255,0.4));background:-o-linear-gradient(bottom, rgba(58,98,135,0.9), rgba(255, 255, 255,0.4));background:-moz-linear-gradient(bottom, rgba(58,98,135,0.9), rgba(255, 255, 255,0.4));background:linear-gradient(to bottom, rgba(58,98,135,0.9), rgba(255, 255, 255,0.4));box-shadow:2px 2px 5px black;-webkit-box-shadow:2px 2px 5px black;-moz-box-shadow:2px 2px 5px black;}
+#sub input:hover{left:149px;top:9px;box-shadow:5px 5px 10px black;-webkit-box-shadow:5px 5px 10px black;-moz-box-shadow:5px 5px 10px black;color:#fff;transition:color 0.3s;}
+#sub input:active{left:150px;top:10px;box-shadow:2px 2px 5px black;-webkit-box-shadow:2px 2px 5px black;-moz-box-shadow:2px 2px 5px black;color:#000;}
+#reg p:first-child{width:180px;position:absolute;left:10px;top:60px;color:#fff;}
+#reg p:last-child{width:180px;position:absolute;right:10px;top:60px;text-align:right;}
+#reg a{text-decoration:none;color:#800000;border-radius:5px;padding:3px 8px;}
+#reg a:hover{background:#0066cc;color:white;}
+#content_family label{display:inline-block;margin:12px;}
+#content_family hr{margin:10px 5px;}
+/**/.upper{text-transform:uppercase;}
+#forgotpsw a{color:#FFCC66;}
+#forgotpsw a:hover{color:#FF6600;}

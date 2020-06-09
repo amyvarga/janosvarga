@@ -1,0 +1,147 @@
+BODY {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, SansSerif
+}
+DIV {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, SansSerif
+}
+SPAN {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, SansSerif
+}
+FONT {
+	FONT-SIZE: 11px; FONT-FAMILY: Verdana, Arial, Helvetica, SansSerif
+}
+A {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Verdana, Arial, Helvetica, SansSerif
+}
+.breadcrumbs {
+	FONT-SIZE: 10px
+}
+.breadcrumbs_color {
+	FONT-SIZE: 10px; COLOR: #990000
+}
+.breadcrumbs2 {
+	PADDING-BOTTOM: 2px; PADDING-TOP: 2px
+}
+.bold {
+	FONT-WEIGHT: bold
+}
+.boxbody {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px
+}
+.boxindent {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; LIST-STYLE-POSITION: inside; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; LIST-STYLE-TYPE: decimal
+}
+.boxmargin {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 8px; LIST-STYLE-POSITION: inside; PADDING-BOTTOM: 8px; PADDING-TOP: 8px; LIST-STYLE-TYPE: decimal
+}
+.boxtitle {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 4px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; TEXT-TRANSFORM: uppercase; PADDING-TOP: 2px
+}
+.boxtitlewhite {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; TEXT-TRANSFORM: uppercase; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.boxtitleblack {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; TEXT-TRANSFORM: uppercase; COLOR: #000000; TEXT-DECORATION: none
+}
+.dingbat {
+	FONT-WEIGHT: bold; FONT-SIZE: 9px; COLOR: #990000; TEXT-DECORATION: none
+}
+.hot {
+	FONT-WEIGHT: bold; COLOR: #ff0000
+}
+.leftindent {
+	PADDING-LEFT: 12px
+}
+.linkbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px
+}
+.linkcolour {
+	COLOR: #000066
+}
+.linkheadline {
+	COLOR: #000000
+}
+.linktopstory {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-TOP: 4px; TEXT-DECORATION: none
+}
+.linknav {
+	FONT-WEIGHT: normal; FONT-SIZE: 10px; COLOR: #000000; LINE-HEIGHT: 14px
+}
+.linknavwhite {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #ffffff; TEXT-DECORATION: none
+}
+.newsheading {
+	FONT-WEIGHT: bold; TEXT-TRANSFORM: uppercase
+}
+.newsheadingcolour {
+	FONT-WEIGHT: bold; TEXT-TRANSFORM: uppercase; COLOR: #000066; TEXT-DECORATION: none
+}
+.newsheadline {
+	FONT-WEIGHT: bold
+}
+.newsheadlinecolour {
+	FONT-WEIGHT: bold; COLOR: #000066
+}
+.plain {
+	FONT-WEIGHT: normal; FONT-SIZE: 11px; COLOR: #000000
+}
+.sectionname {
+	FONT-WEIGHT: bold; TEXT-TRANSFORM: uppercase; COLOR: #ffffff
+}
+.small {
+	FONT-SIZE: 10px
+}
+.smallbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px
+}
+.smallcolour {
+	FONT-SIZE: 10px; COLOR: #000066
+}
+.smallcolourbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #000066
+}
+.smallgrey {
+	FONT-SIZE: 10px; COLOR: #666666
+}
+.smallitalic {
+	FONT-SIZE: 10px; FONT-STYLE: italic
+}
+.smallnounderline {
+	FONT-SIZE: 9px; TEXT-DECORATION: none
+}
+.smallred {
+	FONT-SIZE: 10px; COLOR: #990000
+}
+.smallredbold {
+	FONT-WEIGHT: bold; FONT-SIZE: 10px; COLOR: #990000
+}
+.storybyline {
+	MARGIN-TOP: 10pt; FONT-WEIGHT: bold
+}
+.storycaption {
+	FONT-WEIGHT: bold
+}
+.storycredit {
+	FONT-WEIGHT: bold
+}
+.storydate {
+	MARGIN-TOP: 10px; FONT-STYLE: italic
+}
+.storyheadline {
+	FONT-WEIGHT: bold; FONT-SIZE: medium; COLOR: black; LINE-HEIGHT: 120%
+}
+.storypub {
+	FONT-WEIGHT: normal
+}
+.storysubhead {
+	FONT-SIZE: medium
+}
+.storytext {
+	FONT-SIZE: 12px
+}
+.textad {
+	FONT-SIZE: 11px; PADDING-BOTTOM: 4px; COLOR: #000000; PADDING-TOP: 3px
+}
+.textad2 {
+	FONT-SIZE: 11px; COLOR: #000000
+}

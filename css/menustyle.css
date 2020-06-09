@@ -1,0 +1,20 @@
+
+/*******************************
+	CSS Document for HappySlaks.com of Janos Varga 
+	Developed by: V.Hohin 
+	Script Date: April 17, 2016 
+	Last modification: May 15, 2016
+*********************************/
+
+/********************************  
+Style for Gallery pages for left side menu  
+********************************/
+@charset "utf-8";#navgallery{margin:0 auto;}
+ul#menu{list-style-type:none;font-size:100%;display:block;height:1.4em;}
+ul#menu li{display:inline-block;margin-top:0;}
+ul#menu a{position:relative;font-size:80%;outline:0;color:#FFCC66;padding:3px 10px 4px;border-radius:10px;}
+ul#menu a:hover,
+ul#cmd a:focus,
+ul#cmd a:visited,
+ul#cmd a:active{color:white;transition-duration:0.3s;background:#993300;}
+.monofont{font-family:monospace;}
