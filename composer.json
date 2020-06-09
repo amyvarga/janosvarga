@@ -1,0 +1,13 @@
+{
+    "name": "root/public_html",
+    "require-dev": {
+        "php": "5.6.36"
+    },
+    "authors": [
+        {
+            "name": "Amy Varga",
+            "email": "amymvarga@yahoo.co.uk"
+        }
+    ],
+    "require": {}
+}
