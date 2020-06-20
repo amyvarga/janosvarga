@@ -7,8 +7,8 @@
 -->
 
 <?php include ("blocks/db.php");
-$result = mysqli_query($db, "SELECT titlePage,metaDescription,header_1,text_1,header_2,text_2,header_3,text_3 FROM settings WHERE pageName='about'") or die("SQL error: ".mysql_error());
-$myrow = mysqli_fetch_array($result);
+$result = mysql_query("SELECT titlePage,metaDescription,header_1,text_1,header_2,text_2,header_3,text_3 FROM settings WHERE pageName='about'",$db) or die("SQL error: ".mysql_error());
+$myrow = mysql_fetch_array($result);
 $pageName = "about";	//for top and  footer navigation (do not show navigation to self-page) 
 ?>
 
