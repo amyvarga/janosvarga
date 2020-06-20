@@ -7,8 +7,8 @@
 -->
 
 <?php include ("blocks/db.php");
-$result = mysqli_query($db, "SELECT titlePage, metaDescription, header_1, imageLocation FROM settings WHERE pageName='canadawide'") or die("SQL error: ".mysql_error());
-$myrow = mysqli_fetch_array($result);
+$result = mysql_query("SELECT titlePage, metaDescription, header_1, imageLocation FROM settings WHERE pageName='canadawide'",$db) or die("SQL error: ".mysql_error());
+$myrow = mysql_fetch_array($result);
 $header_1 = $myrow["header_1"];	//name of gallery on gallery pages
 $galleryName = "canada";	//for side navigation on gallery pages
 $pageName='canadawide';		//for top navigation

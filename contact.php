@@ -7,8 +7,8 @@
 -->
 
 <?php include ("blocks/db.php");
-$result = mysqli_query($db, "SELECT titlePage,metaDescription,header_1,text_1,header_2,text_2,header_3,text_3 FROM settings WHERE pageName='contact'") or die("SQL error: ".mysql_error());
-$myrow = mysqli_fetch_array($result);
+$result = mysql_query("SELECT titlePage,metaDescription,header_1,text_1,header_2,text_2,header_3,text_3 FROM settings WHERE pageName='contact'",$db) or die("SQL error: ".mysql_error());
+$myrow = mysql_fetch_array($result);
 $pageName = "contact";	//for top and  footer navigation (do not show navigation to self-page) 
 ?>
 
@@ -23,7 +23,7 @@ $pageName = "contact";	//for top and  footer navigation (do not show navigation 
   
   <title><?php echo $myrow["titlePage"];?></title>
   <!-- Meta Description for Search Engine Results -->
-  <meta name="description" content="<?php echo $myrow["metaDescription"];?>">
+  <meta name="description" content="<?php echo $myrow["metaDescription"];?>"
 	
   <!-- Custom CSS -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">

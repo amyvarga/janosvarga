@@ -15,8 +15,8 @@
 		$email = stripslashes($email);
 		$email = htmlspecialchars($email);
 		$email = trim($email);
-	$result = mysqli_query($db, "SELECT * FROM familylist WHERE email='$email'");
-	$myrow = mysqli_fetch_array($result);
+	$result = mysql_query("SELECT * FROM familylist WHERE email='$email'",$db);
+	$myrow = mysql_fetch_array($result);
 	if (empty($myrow['name']) or empty($myrow['psw'])){
 		$name="";
 		$psw="";
