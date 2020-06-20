@@ -11,12 +11,12 @@
         <ul class="gallery-list lightgallery">
 <?php
     // number of pictures in Gallery for navigation
-    $num_posts=mysqli_fetch_array(mysqli_query($db, "SELECT COUNT(*) FROM gallery WHERE galleryName='$galleryName'")) or die(mysql_error());
+    $num_posts=mysql_fetch_array(mysql_query("SELECT COUNT(*) FROM gallery WHERE galleryName='$galleryName'")) or die(mysql_error());
     $num_posts = $num_posts["COUNT(*)"];
         
     // get datas of pictures from database
-    $resultPicture = mysqli_query($db, "Select pictureName, pictureDescription, pictureDatas, portrait, fileName from gallery where galleryName = '$galleryName' order by indexOnPage") or die(mysql_error());
-    $data = mysqli_fetch_array($resultPicture);	
+    $resultPicture = mysql_query("Select pictureName, pictureDescription, pictureDatas, portrait, fileName from gallery where galleryName = '$galleryName' order by indexOnPage") or die(mysql_error());
+    $data = mysql_fetch_array($resultPicture);	
         
     //number of picture and numbers Next and Prev pictures for navigation
     $num_image = 0;
@@ -51,7 +51,7 @@
             </section>
         </li>", $num_image, $imageLocation, $data["fileName"], $data["pictureName"], $data["pictureName"], $data["pictureDescription"], $data["pictureDatas"], $num_image, $imageLocation, $data["fileName"], $data["pictureName"],$num_prev,$num_next);
         }
-        while ( $data = mysqli_fetch_array($resultPicture));
+        while ( $data = mysql_fetch_array($resultPicture));
         
     ?>							
         </ul>			
