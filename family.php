@@ -10,8 +10,8 @@
 session_start();
 session_destroy(); 
 include ("blocks/db.php");
-$result = mysqli_query($db, "SELECT titlePage,metaDescription,header_1 FROM settings WHERE pageName='family'") or die("SQL error: ".mysql_error());
-$myrow = mysqli_fetch_array($result);
+$result = mysql_query("SELECT titlePage,metaDescription,header_1 FROM settings WHERE pageName='family'",$db) or die("SQL error: ".mysql_error());
+$myrow = mysql_fetch_array($result);
 $pageName = "family";	//for top and  footer navigation (do not show navigation to self-page) 
 ?>
 
