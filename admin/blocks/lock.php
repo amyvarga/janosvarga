@@ -10,16 +10,16 @@ if (!isset($_SERVER['PHP_AUTH_USER']))
 
 else {
         if (!get_magic_quotes_gpc()) {
-                $_SERVER['PHP_AUTH_USER'] = mysqli_real_escape_string($db, $_SERVER['PHP_AUTH_USER']);
-                $_SERVER['PHP_AUTH_PW'] = mysqli_real_escape_string($_SERVER['PHP_AUTH_PW']);
+                $_SERVER['PHP_AUTH_USER'] = mysql_real_escape_string($_SERVER['PHP_AUTH_USER']);
+                $_SERVER['PHP_AUTH_PW'] = mysql_real_escape_string($_SERVER['PHP_AUTH_PW']);
         }
 
         $query = "SELECT pass FROM userlist WHERE user='".$_SERVER['PHP_AUTH_USER']."'";
-        $lst = @mysqli_query($db, $query);
+        $lst = @mysql_query($query);
 
         if (!$lst)
         {
-        Header ("WWW-Authenticate: Basic realm=\"Admin Page\"");
+            Header ("WWW-Authenticate: Basic realm=\"Admin Page\"");
         Header ("HTTP/1.0 401 Unauthorized");
         exit();
         }
@@ -31,7 +31,7 @@ else {
            exit();
         }
 
-        $pass =  @mysqli_fetch_array($lst);
+        $pass =  @mysql_fetch_array($lst);
         if ($_SERVER['PHP_AUTH_PW']!= $pass['pass'])
         {
             Header ("WWW-Authenticate: Basic realm=\"Admin Page\"");
