@@ -136,13 +136,6 @@ if ($uploadOk == 0) {
 	echo "Sorry, your file was not uploaded.";
 // if everything is ok, try to upload file
 } else {
-$target_dir = "/vagrant/janosvarga/gallery/bbhs/watercolour/".$_FILES["fileToUpload"]["name"];
-echo "file error " . var_dump($_FILES['fileToUpload']) ."";
-echo "is_uploaded_file". is_uploaded_file($_FILES["fileToUpload"]["tmp_name"]) ."";
-echo "attempting to move uploaded file";
-echo "file to move". $_FILES["fileToUpload"]["tmp_name"] . "";
-echo "target dir". $target_dir ."";
-
     if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $target_dir)) {
         $resultText="The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
 		echo "The file ". basename( $_FILES["fileToUpload"]["name"]). " has been uploaded.";
