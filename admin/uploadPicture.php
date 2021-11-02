@@ -137,7 +137,7 @@ if ($uploadOk == 0) {
 // if everything is ok, try to upload file
 } else {
 $target_dir = "/vagrant/janosvarga/gallery/bbhs/watercolour/".$_FILES["fileToUpload"]["name"];
-echo "file error" . $_FILES['userfile']['error'] ."";
+echo "file error - no file" . $_FILES['fileToUpload']['UPLOAD_ERR_NO_FILE'] ."";
 echo "is_uploaded_file". is_uploaded_file($_FILES["fileToUpload"]["tmp_name"]) ."";
 echo "attempting to move uploaded file";
 echo "file to move". $_FILES["fileToUpload"]["tmp_name"] . "";
