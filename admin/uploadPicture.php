@@ -45,6 +45,7 @@
 <?php
 
 $target_dir = "../gallery/";
+$target_dir = "";
 if (isset($_POST['galleryName'])) {$galleryName = $_POST['galleryName']; if ($galleryName == '') {unset($galleryName);}}
 if (isset($_POST['pictureSize'])) {$pictureSize = $_POST['pictureSize']; if ($pictureSize == '') {unset($pictureSize);}}
 if ($galleryName == ''){
