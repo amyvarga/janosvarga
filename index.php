@@ -28,8 +28,8 @@ $pageName = "index";	//for top and  footer navigation (do not show navigation to
        </div>
        <ul class="minor-carousel-wrapper lightgallery">
            <?php 
-               $galleryName = "various";
-               $galleryLink = "various";
+               $galleryName = "heritage";
+               $galleryLink = "bbhs";
                global $galleryName;
                global $galleryLink;
                include ("blocks/carousel.php"); 
