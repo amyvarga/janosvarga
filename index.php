@@ -22,8 +22,8 @@ $pageName = "index";	//for top and  footer navigation (do not show navigation to
 	<?php include("blocks/header.php"); ?> 	
 	<div id="pagecontainer" class="col-lg-9 col-lg-offset-3 col-md-12 col-sm-12 col-xs-12">
        <div>
-            <h2>Heritage homes on the West Island</h2>
-            <p>Commissioned by <a href="http://www.hist-beaurepaire-beaconsfield.com/" target="_blank">Société historique Beaurepaire-Beaconsfield</a> for a calendar featuring historical homes.
+            <h2>Heritage homes on the West Island which can be edited</h2>
+            <p>Also edited, commissioned by <a href="http://www.hist-beaurepaire-beaconsfield.com/" target="_blank">Société historique Beaurepaire-Beaconsfield</a> for a calendar featuring historical homes.
             </p>
        </div>
        <ul class="minor-carousel-wrapper lightgallery">
