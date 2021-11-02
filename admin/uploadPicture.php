@@ -98,7 +98,7 @@ $uploadOk = 1;
 //echo "Target_dir: ".$target_dir." Target_file ".$target_dir." ImageFile type ".$imageFileType;
 
 // Check if image file is a actual image or fake image
-if(isset($_POST["submit"])) {
+/*if(isset($_POST["submit"])) {
     $check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
     if($check !== false) {
         $resultText="File is an image - " . $check["mime"] . ".";
@@ -109,7 +109,7 @@ if(isset($_POST["submit"])) {
 		echo "File is not an image.";
         $uploadOk = 0;
     }
-}
+}*/
 // Check if file already exists
 if (file_exists($target_file)) {
     $resultText="Sorry, file already exists.";
