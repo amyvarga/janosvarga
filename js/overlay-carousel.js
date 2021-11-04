@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $('.lightgallery').lightGallery({
         selector: '.lightgallery-slide-item',
-        showThumbByDefault:true,
+        showThumbByDefault:false,
         addClass:'showThumbByDefault',
         download: true,
         counter: true
