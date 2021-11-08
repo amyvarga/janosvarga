@@ -34,7 +34,7 @@
                                 <img src='gallery/".$folderName."/thumbs/".$data['fileName']."' alt='".$data['']."'>
                             </div>
                             <figcaption>
-                               <h3>$data['pictureName']</h3>
+                               <h3>".$data['pictureName']."</h3>
                             </figcaption>
                         </figure>
                     </a>
