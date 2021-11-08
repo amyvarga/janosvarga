@@ -2,7 +2,7 @@
 	$num_posts=mysql_fetch_array(mysql_query("SELECT COUNT(*) FROM gallery WHERE galleryName='$galleryName'")) or die(mysql_error());
     $num_posts = $num_posts["COUNT(*)"];
     $resultPicture = mysql_query("Select pictureName, pictureDescription, pictureDatas, portrait, fileName  
-	from gallery where galleryName = '$galleryName' order by indexOnPage LIMIT 6") or die(mysql_error());
+	from gallery where galleryName = '$galleryName' order by indexOnPage") or die(mysql_error());
     switch ($galleryName) {
         case 'heritage':
             $folderName = 'bbhs';
