@@ -9,7 +9,7 @@
 <?php include ("blocks/db.php");
 $result = mysql_query("SELECT titlePage, metaDescription, header_1, imageLocation FROM settings WHERE pageName='toronto'",$db) or die("SQL error: ".mysql_error());
 $myrow = mysql_fetch_array($result);
-$header_1 = $myrow["header_1"];	//name of gallery on gallery pages
+$header_1 = $myrow["titlePage"];	//name of gallery on gallery pages
 $galleryName = "toronto";	//for side navigation on gallery pages
 $pageName = "toronto";		//for top navigation
 $imageLocation = $myrow["imageLocation"]; // to find images (for navigation)
